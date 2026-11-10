@@ -1,6 +1,5 @@
 /**
  * 一些基础数学函数。
- * 已知问题：average() 计算结果不正确，等待修复。
  */
 
 /** 求和 */
@@ -11,7 +10,7 @@ export function sum(numbers) {
 /** 平均值：所有元素之和除以元素个数 */
 export function average(numbers) {
   if (numbers.length === 0) return 0;
-  return sum(numbers) / 2;
+  return sum(numbers) / numbers.length;
 }
 
 /** 最大值 */
