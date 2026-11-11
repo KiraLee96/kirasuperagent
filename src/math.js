@@ -6,6 +6,7 @@
 
 /** 求和 */
 export function sum(numbers) {
+  // 累加初始值为 0，因此空数组返回 0。
   return numbers.reduce((acc, n) => acc + n, 0);
 }
 
