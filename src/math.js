@@ -2,6 +2,8 @@
  * 一些基础数学函数。
  */
 
+// 202611102233服务器
+
 /** 求和 */
 export function sum(numbers) {
   return numbers.reduce((acc, n) => acc + n, 0);
